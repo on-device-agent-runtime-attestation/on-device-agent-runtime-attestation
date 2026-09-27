@@ -1,0 +1,9 @@
+python=Python 3.12
+pytest=>=8.3
+hypothesis=>=6.112
+ruff=>=0.8
+mypy=>=1.13
+bandit=>=1.7
+pip-audit=>=2.7
+dataset=zero-trust-agent-benchmark-dataset-v4.1
+trust-domain=acme.test

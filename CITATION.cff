@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: On-Device Agent Runtime Attestation
+authors:
+  - family-names: Sawant
+    given-names: Parag
+license: Apache-2.0
+version: 0.1.0
+repository-code: https://github.com/on-device-agent-runtime-attestation/on-device-agent-runtime-attestation
+message: If you use this artifact, cite the repository and record the exact commit.

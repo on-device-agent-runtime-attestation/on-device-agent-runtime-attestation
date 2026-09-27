@@ -1,0 +1,2 @@
+attack_traces,blocked,benign_traces,leaks,runtime_ms,throughput_traces_per_second,wilson_lower,wilson_upper
+500,268,500,0,6.825,146518.0,0.492178,0.579273

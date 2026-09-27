@@ -1,0 +1,10 @@
+{
+  "attack_traces": 500,
+  "blocked": 268,
+  "benign_traces": 500,
+  "leaks": 0,
+  "runtime_ms": 6.825,
+  "throughput_traces_per_second": 146518.0,
+  "wilson_lower": 0.492178,
+  "wilson_upper": 0.579273
+}

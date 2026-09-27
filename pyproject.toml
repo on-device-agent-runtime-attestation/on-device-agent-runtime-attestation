@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "on-device-agent-runtime-attestation"
+version = "0.1.0"
+description = "Runtime attestation for on-device agent tool calls"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+authors = [{ name = "Parag Sawant" }]
+keywords = ["agent-security", "runtime-attestation", "zero-trust", "spiffe", "tpm", "agents"]
+classifiers = ["Development Status :: 3 - Alpha", "Intended Audience :: Developers", "License :: OSI Approved :: Apache Software License", "Programming Language :: Python :: 3.12", "Topic :: Security"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "pytest-cov>=5.0", "hypothesis>=6.112", "ruff>=0.8", "mypy>=1.13", "bandit>=1.7", "pip-audit>=2.7"]
+bench = []
+
+[project.scripts]
+on-device-agent-runtime-attestation = "on_device_agent_runtime_attestation.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/on-device-agent-runtime-attestation/on-device-agent-runtime-attestation"
+Issues = "https://github.com/on-device-agent-runtime-attestation/on-device-agent-runtime-attestation/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/on_device_agent_runtime_attestation"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"data/zero-trust-agent-benchmark-v4.1" = "on_device_agent_runtime_attestation/_data/zero-trust-agent-benchmark-v4.1"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["src/on_device_agent_runtime_attestation/stats.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF"]
+ignore = ["E701", "E702"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S311", "S105", "S106", "ANN001"]
+"bench/**" = ["S101", "S311", "T201"]
+"scripts/**" = ["S101", "T201"]
+"src/on_device_agent_runtime_attestation/cli.py" = ["T201"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+files = ["src", "bench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["error"]
+
+[tool.coverage.run]
+branch = true
+source = ["on_device_agent_runtime_attestation"]
+omit = ["src/on_device_agent_runtime_attestation/cli.py"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_also = ["if __name__ == .__main__.", "raise NotImplementedError", "pragma: no cover"]
+
+
