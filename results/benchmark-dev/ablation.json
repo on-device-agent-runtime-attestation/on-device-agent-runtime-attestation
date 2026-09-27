@@ -1,0 +1,494 @@
+[
+  {
+    "clean_attack_block_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 250,
+      "wilson_high": 0.015133299495444574,
+      "wilson_low": 8.542356930365357e-19
+    },
+    "clean_false_positive_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 750,
+      "wilson_high": 0.005095844458732323,
+      "wilson_low": 0.0
+    },
+    "combined_attack_block_rate": {
+      "count": 145,
+      "rate": 0.58,
+      "total": 250,
+      "wilson_high": 0.639517726965149,
+      "wilson_low": 0.5180609451155799
+    },
+    "latency": {
+      "mean_ms": 0.2917429999797605,
+      "p50_ms": 0.23299999884329736,
+      "p95_ms": 0.46299999667098746,
+      "p99_ms": 0.771099999838043,
+      "trials": 100
+    },
+    "tamper_detection": [
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-runtime",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-runtime",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-tool-manifest",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-tool-manifest",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-policy",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-policy",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "stale-or-replayed-quote",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "stale-or-replayed-quote",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "rolled-back-measurement",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "rolled-back-measurement",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      }
+    ],
+    "version": "version_1"
+  },
+  {
+    "clean_attack_block_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 250,
+      "wilson_high": 0.015133299495444574,
+      "wilson_low": 8.542356930365357e-19
+    },
+    "clean_false_positive_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 750,
+      "wilson_high": 0.005095844458732323,
+      "wilson_low": 0.0
+    },
+    "combined_attack_block_rate": {
+      "count": 250,
+      "rate": 1.0,
+      "total": 250,
+      "wilson_high": 0.9999999999999998,
+      "wilson_low": 0.9848667005045553
+    },
+    "latency": {
+      "mean_ms": 0.49300300008326303,
+      "p50_ms": 0.36080000427318737,
+      "p95_ms": 0.857999999425374,
+      "p99_ms": 2.936799995950423,
+      "trials": 100
+    },
+    "tamper_detection": [
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-runtime",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-runtime",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-tool-manifest",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-tool-manifest",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-policy",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-policy",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "stale-or-replayed-quote",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "stale-or-replayed-quote",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "rolled-back-measurement",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "rolled-back-measurement",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      }
+    ],
+    "version": "per_tool_requirements"
+  },
+  {
+    "clean_attack_block_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 250,
+      "wilson_high": 0.015133299495444574,
+      "wilson_low": 8.542356930365357e-19
+    },
+    "clean_false_positive_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 750,
+      "wilson_high": 0.005095844458732323,
+      "wilson_low": 0.0
+    },
+    "combined_attack_block_rate": {
+      "count": 250,
+      "rate": 1.0,
+      "total": 250,
+      "wilson_high": 0.9999999999999998,
+      "wilson_low": 0.9848667005045553
+    },
+    "latency": {
+      "mean_ms": 0.48350900040531997,
+      "p50_ms": 0.3327000013086945,
+      "p95_ms": 1.026600002660416,
+      "p99_ms": 2.565199996752199,
+      "trials": 100
+    },
+    "tamper_detection": [
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-runtime",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-runtime",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-tool-manifest",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-tool-manifest",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-policy",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-policy",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "stale-or-replayed-quote",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "stale-or-replayed-quote",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "rolled-back-measurement",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "rolled-back-measurement",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      }
+    ],
+    "version": "fresh_appraisal_tokens"
+  },
+  {
+    "clean_attack_block_rate": {
+      "count": 51,
+      "rate": 0.204,
+      "total": 250,
+      "wilson_high": 0.2582536591771947,
+      "wilson_low": 0.1587052541241084
+    },
+    "clean_false_positive_rate": {
+      "count": 0,
+      "rate": 0.0,
+      "total": 750,
+      "wilson_high": 0.005095844458732323,
+      "wilson_low": 0.0
+    },
+    "combined_attack_block_rate": {
+      "count": 250,
+      "rate": 1.0,
+      "total": 250,
+      "wilson_high": 0.9999999999999998,
+      "wilson_low": 0.9848667005045553
+    },
+    "latency": {
+      "mean_ms": 0.2964539999811677,
+      "p50_ms": 0.276700004178565,
+      "p95_ms": 0.38720000156899914,
+      "p99_ms": 0.48519999836571515,
+      "trials": 100
+    },
+    "tamper_detection": [
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-runtime",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-runtime",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-tool-manifest",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-tool-manifest",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "tampered-policy",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "tampered-policy",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "stale-or-replayed-quote",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "stale-or-replayed-quote",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      },
+      {
+        "blocked_or_degraded_count": 750,
+        "condition": "rolled-back-measurement",
+        "label": "benign",
+        "rate": 1.0,
+        "total": 750,
+        "wilson_high": 1.0,
+        "wilson_low": 0.9949041555412678
+      },
+      {
+        "blocked_or_degraded_count": 250,
+        "condition": "rolled-back-measurement",
+        "label": "attack",
+        "rate": 1.0,
+        "total": 250,
+        "wilson_high": 0.9999999999999998,
+        "wilson_low": 0.9848667005045553
+      }
+    ],
+    "version": "taint_aware_final"
+  }
+]

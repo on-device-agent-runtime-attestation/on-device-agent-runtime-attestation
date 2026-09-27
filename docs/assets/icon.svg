@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="on-device-agent-runtime-attestation">
+  <defs><linearGradient id="g-on-device-agent-runtime-attestation" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#0F766E"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#g-on-device-agent-runtime-attestation)"/>
+  <g stroke="#fff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M256 96 L372 142 V252 C372 330 322 386 256 416 C190 386 140 330 140 252 V142 Z"/><path d="M202 254 L238 290 L314 210"/><path d="M174 348 H338"/><circle cx="174" cy="348" r="16" fill="#fff" stroke="none"/><circle cx="256" cy="348" r="16" fill="#fff" stroke="none"/><circle cx="338" cy="348" r="16" fill="#fff" stroke="none"/></g>
+</svg>

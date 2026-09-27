@@ -1,0 +1,26 @@
+[
+  {
+    "chunk_count": 32,
+    "chunk_size_bytes": 8388608,
+    "elapsed_seconds": 0.5351407000052859,
+    "root_digest": "006a3ca3d755062b241b912ce2593fcdc759702ec82534bcbb1712f90233a267",
+    "size_bytes": 268435456,
+    "throughput_mib_per_second": 478.3788637221414
+  },
+  {
+    "chunk_count": 128,
+    "chunk_size_bytes": 8388608,
+    "elapsed_seconds": 2.2625235000014072,
+    "root_digest": "5551bf7b19cd10207a88a7c0158078dd828bc2f195d9a29b7b618a5bf97f852d",
+    "size_bytes": 1073741824,
+    "throughput_mib_per_second": 452.5919841271762
+  },
+  {
+    "chunk_count": 512,
+    "chunk_size_bytes": 8388608,
+    "elapsed_seconds": 8.69024509999872,
+    "root_digest": "8519217fbb884269134f5ce639c386c3db3d651ae8723920a5c4b5d100a5796d",
+    "size_bytes": 4294967296,
+    "throughput_mib_per_second": 471.33308127300154
+  }
+]
